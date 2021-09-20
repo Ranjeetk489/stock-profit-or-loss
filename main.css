@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+body{
+    font-family: 'Rubik',sans-serif;
+    font-weight: bold;
+    display:flex; 
+    flex-direction:column;
+    background-color:#fff0f5 ;
+    width: auto;
+    
+}
+
+
+input{
+    line-height: 5vh;
+}
+button{
+    margin-top: 3vh;
+    border: 1px solid blue;
+    border-radius: 0.2rem;
+    font-weight: 120;
+    padding: 0.3rem;
+    margin-left: 5cm;
+}
+.details{
+    margin-left: 5cm;
+
+}
+#show:hover{
+    background-color: blue;
+    color: white;
+}
+
+#head{
+    margin-top: 4cm;
+    margin-left: 5cm;
+    font-size: 1cm;
+    margin-bottom: 0.5cm;
+}
+#message{
+    font-size: 0.7cm;
+    font-weight: bolder;
+    position: absolute;
+    width: auto;
+    max-width: 400px;
+    margin-left: 15cm;
+    margin-top: 8cm;
+}  
+
+#intPrice{
+    margin-bottom: 3vh;
+}
+#quantity{
+    margin-bottom: 3vh;
+}
+#img{
+    position: absolute;
+    width: 200px;
+    margin-bottom: 2cm;
+    margin-left: 5cm;
+}
