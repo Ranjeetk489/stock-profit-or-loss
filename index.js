@@ -21,7 +21,7 @@ function main(){
 
 function checkProfitLoss(sellPrice,costPrice){
     if(sellPrice === costPrice){
-        message.style.color = "grey";
+        message.style.color = "blue";
        message.innerText = "NO LOSS NO GAIN!!!!";
     }
     else if(sellPrice> costPrice){

@@ -6,14 +6,11 @@ body{
     font-weight: bold;
     display:flex; 
     flex-direction:column;
-    background-color:#fff0f5 ;
-    width: auto;
-    
+    background-color:#fff0f5;
 }
 
-
 input{
-    line-height: 5vh;
+    line-height: 4vh;
 }
 button{
     margin-top: 3vh;
@@ -43,8 +40,8 @@ button{
     font-weight: bolder;
     position: absolute;
     width: auto;
-    max-width: 400px;
-    margin-left: 15cm;
+    max-width: 600px;
+    margin-left: 12cm;
     margin-top: 8cm;
 }  
 
@@ -56,7 +53,7 @@ button{
 }
 #img{
     position: absolute;
-    width: 200px;
+    width: 170px;
     margin-bottom: 2cm;
     margin-left: 5cm;
 }
