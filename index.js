@@ -13,6 +13,10 @@ function main(){
         checkProfitLoss(crPrice, price);
         
     }
+    else if(intPrice.value === "" || quantity.value === "" || currPrice.value === ""){
+        message.style.color = "red";
+        message.innerText = "Any Field can't be empty";
+    }
     else{
         message.style.color = "red";
         message.innerText = "Invalid entry! Enter valid and Positive amount!";
